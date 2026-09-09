@@ -1,0 +1,1190 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AMWA IN-002: Time and Identity in the Dynamic Media Facility">
+      
+      
+        <meta name="author" content="AMWA">
+      
+      
+      
+        <link rel="prev" href="./..">
+      
+      
+        <link rel="next" href="../images/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.60">
+    
+    
+      
+        <title>Time & Identity in the Dynamic Media Facility - IN-002</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.ce62732f.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.812a03bb.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/amwa-branding.css">
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#time-identity-in-the-dynamic-media-facility" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="./.." title="IN-002" class="md-header__button md-logo" aria-label="IN-002" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IN-002
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Time &amp; Identity in the Dynamic Media Facility
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+        <a href="https://github.com/AMWA-TV/in-002" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AMWA-TV/in-002
+  </div>
+</a>
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="IN-002" class="md-nav__button md-logo" aria-label="IN-002" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    IN-002
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/AMWA-TV/in-002" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AMWA-TV/in-002
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  [Work In Progress] AMWA IN-002: Time and Identity in the Dynamic Media Facility
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Time &amp; Identity in the Dynamic Media Facility
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Time &amp; Identity in the Dynamic Media Facility
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-timing-and-identity-matter-in-a-dmf" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Why Timing and Identity Matter in a DMF
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Definitions
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-of-streamlined-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Goal of Streamlined Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-1-key-principles-june-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Phase 1 Key Principles (June 2026)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phase 1 Key Principles (June 2026)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timing-relationship-preservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timing Relationship Preservation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asynchronous-by-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Asynchronous by Design
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-is-used-as-an-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Time Is Used as an Index
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-single-common-time-domain-underpins-each-dmf-media-workload" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        A Single Common Time Domain Underpins Each DMF Media Workload
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-its-indexing-time-stamp-is-the-canonical-timing-value-within-the-workload" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        The ITS (Indexing Time Stamp) Is the Canonical Timing Value Within the Workload
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timestamps-are-propagated-through-media-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timestamps Are Propagated Through Media Functions
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-modifications-create-a-new-flow-same-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Technical Modifications Create a New Flow, Same Source
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editorial-modifications-create-a-new-source-and-new-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Editorial Modifications Create a New Source and New Flow
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-rules-how-time-and-identity-are-assigned-and-propagated" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Key Rules: How Time and Identity Are Assigned and Propagated
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Rules: How Time and Identity Are Assigned and Propagated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-external-signals-must-be-conformed-to-the-common-media-workload-time-domain-on-ingress" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        All External Signals Must Be Conformed to the Common Media Workload Time Domain on Ingress
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-timing-relationships-between-signals-must-be-preserved-and-tracked" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Critical Timing Relationships Between Signals Must Be Preserved and Tracked
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recording-a-flow-in-the-dmf-domain-preserves-its-identity-and-timestamps" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Recording a Flow in the DMF Domain Preserves Its Identity and Timestamps
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generated-or-replayed-sources-are-conformed-to-the-live-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Generated or Replayed Sources Are Conformed to the Live Context
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Future Work
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Future Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ingress-conforming-jt-dmf-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ingress Conforming (JT-DMF Priority)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upstream-signal-chain-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Upstream Signal Chain Timing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timing-relationship-propagation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timing Relationship Propagation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-cluster-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Multi-Cluster Timing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../images/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Images
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Images
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-timing-and-identity-matter-in-a-dmf" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Why Timing and Identity Matter in a DMF
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Definitions
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-of-streamlined-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Goal of Streamlined Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-1-key-principles-june-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Phase 1 Key Principles (June 2026)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phase 1 Key Principles (June 2026)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timing-relationship-preservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timing Relationship Preservation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asynchronous-by-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Asynchronous by Design
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-is-used-as-an-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Time Is Used as an Index
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-single-common-time-domain-underpins-each-dmf-media-workload" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        A Single Common Time Domain Underpins Each DMF Media Workload
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-its-indexing-time-stamp-is-the-canonical-timing-value-within-the-workload" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        The ITS (Indexing Time Stamp) Is the Canonical Timing Value Within the Workload
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timestamps-are-propagated-through-media-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timestamps Are Propagated Through Media Functions
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-modifications-create-a-new-flow-same-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Technical Modifications Create a New Flow, Same Source
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editorial-modifications-create-a-new-source-and-new-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Editorial Modifications Create a New Source and New Flow
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-rules-how-time-and-identity-are-assigned-and-propagated" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Key Rules: How Time and Identity Are Assigned and Propagated
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Rules: How Time and Identity Are Assigned and Propagated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-external-signals-must-be-conformed-to-the-common-media-workload-time-domain-on-ingress" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        All External Signals Must Be Conformed to the Common Media Workload Time Domain on Ingress
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-timing-relationships-between-signals-must-be-preserved-and-tracked" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Critical Timing Relationships Between Signals Must Be Preserved and Tracked
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recording-a-flow-in-the-dmf-domain-preserves-its-identity-and-timestamps" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Recording a Flow in the DMF Domain Preserves Its Identity and Timestamps
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generated-or-replayed-sources-are-conformed-to-the-live-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Generated or Replayed Sources Are Conformed to the Live Context
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Future Work
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Future Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ingress-conforming-jt-dmf-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ingress Conforming (JT-DMF Priority)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upstream-signal-chain-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Upstream Signal Chain Timing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timing-relationship-propagation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timing Relationship Propagation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-cluster-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Multi-Cluster Timing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+  
+
+
+<h1 id="time-identity-in-the-dynamic-media-facility">Time &amp; Identity in the Dynamic Media Facility</h1>
+<p><strong>A Briefing on Timing Principles, Identity Rules &amp; Future Work</strong></p>
+<h2 id="why-timing-and-identity-matter-in-a-dmf">Why Timing and Identity Matter in a DMF</h2>
+<p>Inside a Dynamic Media Facility (DMF), media processing is fully asynchronous. Functions read and process data as soon as it is available, without the frame-locked discipline of a traditional SDI/genlocked environment. This removes unnecessary buffering delays and enables faster-than-real-time operations, but it means that every piece of media must carry its own time context. Without it, there is no way to align audio to video, mix multiple cameras, record reliably, or hand off to downstream synchronous systems.</p>
+<blockquote>
+<p><strong>KEY PRINCIPLE</strong><br />
+The preservation of timing relationships of media signals throughout a live production workflow is the foundation of a functioning DMF.</p>
+</blockquote>
+<p>The DMF Reference Architecture (EBU White Paper v2.0, April 2026) and this document together define how this is achieved through two inseparable concepts: timestamps carried on every grain of media, and stable, unique identities for every Source and Flow in the system. This foundational content identity distinguishes between editorial intent and technical representation, ensuring that media transformations are tracked accurately across the entire production workflow.</p>
+<h2 id="core-definitions">Core Definitions</h2>
+<p>The DMF builds on the concepts and terminology of the JT-NM and JT-DMF Reference Architectures.</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source</td>
+<td>Editorial descriptor for media essence on a timeline. Each Source has a unique, immutable identity. A Source is realised by one or more Flows, each of which represents the editorial intent in a specific technical format.</td>
+</tr>
+<tr>
+<td>Flow</td>
+<td>Technical representation of a Source (for example, a sequence of video frames or audio samples). Each Flow has a unique, immutable identity.</td>
+</tr>
+<tr>
+<td>Grain</td>
+<td>The smallest directly indexable item in a Flow. One video frame equals one Grain. One audio sample per channel equals one Grain.</td>
+</tr>
+<tr>
+<td>Media Workload</td>
+<td>Inherited directly from the DMF Reference Architecture.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="goal-of-streamlined-approach">Goal of Streamlined Approach</h2>
+<p>This document presents a streamlined methodology for Media Functions to execute inter-essence time alignment. The aim is to promote seamless interoperability across diverse vendor implementations.</p>
+<h2 id="phase-1-key-principles-june-2026">Phase 1 Key Principles (June 2026)</h2>
+<p>The JT-DMF E2E Synchronisation working document defines a phased approach to end-to-end timing across a complete hybrid production chain. Phase 1 addresses timing within the DMF media workload itself. Future phases will address ingress conforming and upstream signal chains.</p>
+<blockquote>
+<p><strong>SCOPE NOTE</strong><br />
+Phase 1 covers the asynchronous domain inside a DMF workload. Conforming of external sources and upstream timing are explicitly deferred to Phase 2 and beyond.</p>
+</blockquote>
+<h3 id="timing-relationship-preservation">Timing Relationship Preservation</h3>
+<p>The preservation of timing relationships of media signals throughout a live production workflow is the foundation of a functioning DMF.</p>
+<h3 id="asynchronous-by-design">Asynchronous by Design</h3>
+<p>Software-defined media in the DMF unlocks new possibilities, allowing processing to proceed asynchronously without re-syncing at every stage. As defined in the DMF Reference Architecture, each individual essence is carried discretely. Re-alignment is deferred until essences need to be mixed together or multiplexed for presentation.</p>
+<h3 id="time-is-used-as-an-index">Time Is Used as an Index</h3>
+<p>Time alignment is achieved by matching timestamps on Grains, not by genlocking or frame-synchronising Media Functions.</p>
+<h3 id="a-single-common-time-domain-underpins-each-dmf-media-workload">A Single Common Time Domain Underpins Each DMF Media Workload</h3>
+<p>All Grains must carry timestamps coherent with this domain to facilitate asynchronous media processing and downstream alignment.</p>
+<h3 id="the-its-indexing-time-stamp-is-the-canonical-timing-value-within-the-workload">The ITS (Indexing Time Stamp) Is the Canonical Timing Value Within the Workload</h3>
+<p>ITS is the intended timing value assigned to each Grain within a DMF workload. It is used as the index for all alignment and selection operations. ITS values are chosen to phase align media units (video frames or audio samples) to the SMPTE Epoch. Indexing Time Stamps are expressed as nanoseconds from the SMPTE Epoch (00:00, 1 January 1970).</p>
+<h3 id="timestamps-are-propagated-through-media-functions">Timestamps Are Propagated Through Media Functions</h3>
+<p>When a Media Function processes a Grain from a Flow, the ITS of the input Grain is carried through to the output Grain.</p>
+<h3 id="technical-modifications-create-a-new-flow-same-source">Technical Modifications Create a New Flow, Same Source</h3>
+<p>If a Media Function changes only the technical representation without changing the editorial intent, such as encoding or sample format conversion, the Source identity is preserved and only the Flow identity changes.</p>
+<p>This separates differences in technical format and quality, such as main and proxy versions, from editorial differences. For example, an encoded video stream delivered at multiple bitrates in an Adaptive Bit Rate (ABR) ladder would produce multiple Flows of the same Source.</p>
+<h3 id="editorial-modifications-create-a-new-source-and-new-flow">Editorial Modifications Create a New Source and New Flow</h3>
+<p>If a Media Function changes the editorial meaning of the media, such as colour grading, audio EQ, time shifting, or mixing multiple inputs, the resulting Flow receives both a new Source identity and a new Flow identity.</p>
+<p>This allows editorial changes to be tracked independently from purely technical changes.</p>
+<h2 id="key-rules-how-time-and-identity-are-assigned-and-propagated">Key Rules: How Time and Identity Are Assigned and Propagated</h2>
+<h3 id="all-external-signals-must-be-conformed-to-the-common-media-workload-time-domain-on-ingress">All External Signals Must Be Conformed to the Common Media Workload Time Domain on Ingress</h3>
+<p>This conforming process is imperative and will be defined fully in a future phase of work.</p>
+<h3 id="critical-timing-relationships-between-signals-must-be-preserved-and-tracked">Critical Timing Relationships Between Signals Must Be Preserved and Tracked</h3>
+<p>Some Flows share a timing relationship, such as video and audio from the same scene. Any Media Function performing alignment or mixing must be able to discover these relationships. The method for achieving this will be defined in a later phase of work.</p>
+<h3 id="recording-a-flow-in-the-dmf-domain-preserves-its-identity-and-timestamps">Recording a Flow in the DMF Domain Preserves Its Identity and Timestamps</h3>
+<p>When recording, Flows are written independently as mono-essence with their identity and timing metadata intact. This differs from the conventional approach of aligning and multiplexing media before recording.</p>
+<h3 id="generated-or-replayed-sources-are-conformed-to-the-live-context">Generated or Replayed Sources Are Conformed to the Live Context</h3>
+<p>For generated or replayed Flows, Grain timestamps are synthesised to match the DMF time context into which they are injected, creating a new Source and a new Flow. Any inter-essence alignment relationship may need to be maintained on replay.</p>
+<h2 id="future-work">Future Work</h2>
+<h3 id="ingress-conforming-jt-dmf-priority">Ingress Conforming (JT-DMF Priority)</h3>
+<p>How external synchronous signals, including cameras, contribution streams, SDI, and SMPTE ST 2110, are conformed to the DMF common time domain requires further definition. This includes how intentional offsets are calculated, logged, and carried either dynamically on MXL interfaces or statically in a metadata store.</p>
+<h3 id="upstream-signal-chain-timing">Upstream Signal Chain Timing</h3>
+<p>For a fully end-to-end solution, timing relationships must be captured at the point of acquisition, such as the camera shutter or microphone capsule. Few protocols currently allow this information to be propagated accurately, so additional work outside JT-DMF will be required.</p>
+<h3 id="timing-relationship-propagation">Timing Relationship Propagation</h3>
+<p>Timing relationships between Flows must be propagated through the DMF media workload. The required mechanism or mechanisms remain to be defined.</p>
+<h3 id="multi-cluster-timing">Multi-Cluster Timing</h3>
+<p>Media exchange and timing between clusters, including maintaining asynchronous operation across WAN-connected sites, remain subjects for further study.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="./.." class="md-footer__link md-footer__link--prev" aria-label="Previous: [Work In Progress] AMWA IN-002: Time and Identity in the Dynamic Media Facility">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                [Work In Progress] AMWA IN-002: Time and Identity in the Dynamic Media Facility
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../images/" class="md-footer__link md-footer__link--next" aria-label="Next: README">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                README
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Advanced Media Workflow Association
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.expand","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88ee1349.min.js"></script>
+      
+        <script src="../javascripts/mermaid.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../javascripts/amwa-branding.js"></script>
+      
+    
+  </body>
+</html>
