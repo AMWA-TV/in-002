@@ -1,0 +1,23 @@
+{
+  "amwa_id": "IN-002",
+  "url": "https://specs.amwa.tv/in-002",
+  "name": "Time and Identity in the Dynamic Media Facility",
+  "status": "AMWA Increment",
+  "repo_name": "in-002",
+  "alt_repo_name": null,
+  "repo_url": "https://github.com/AMWA-TV/in-002",
+  "releases": null,
+  "default_branch": "main",
+  "show_in_index": false,
+  "intro": {
+    "what_does_it_do": [
+      "Defines principles and rules for time alignment and stable media identity within a Dynamic Media Facility (DMF)."
+    ],
+    "why_does_it_matter": [
+      "DMF processing is asynchronous, so preserving timing relationships and unique Source and Flow identities is essential for interoperable media workflows."
+    ],
+    "how_does_it_work": [
+      "Establishes a common workload time domain, defines the Indexing Time Stamp (ITS), and specifies how timestamps and Source and Flow identities are propagated or changed through Media Functions."
+    ]
+  }
+}
